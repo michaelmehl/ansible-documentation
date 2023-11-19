@@ -6,7 +6,7 @@
 #
 aiofiles==23.2.1
     # via antsibull-core
-aiohttp==3.8.6
+aiohttp==3.9.0
     # via
     #   antsibull-core
     #   antsibull-docs
@@ -38,12 +38,10 @@ babel==2.13.1
     #   sphinx-intl
 build==1.0.3
     # via antsibull-core
-certifi==2023.7.22
+certifi==2023.11.17
     # via requests
 charset-normalizer==3.3.2
-    # via
-    #   aiohttp
-    #   requests
+    # via requests
 click==8.1.7
     # via sphinx-intl
 docutils==0.18.1
@@ -85,7 +83,7 @@ pydantic==1.10.13
     # via
     #   antsibull-core
     #   antsibull-docs
-pygments==2.16.1
+pygments==2.17.0
     # via
     #   ansible-pygments
     #   sphinx
@@ -171,7 +169,7 @@ typing-extensions==4.8.0
     # via
     #   pydantic
     #   rstcheck
-urllib3==2.0.7
+urllib3==2.1.0
     # via requests
 yarl==1.9.2
     # via aiohttp
